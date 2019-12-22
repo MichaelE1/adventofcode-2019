@@ -9,17 +9,15 @@
 // }, {});
 
 // let totalOrbits = 0;
-// const objectsOrbitingAnother = Object.keys(orbits);
 
-// for (let i = 0; i < objectsOrbitingAnother.length; i++) {
-//   const currentObject = objectsOrbitingAnother[i];
-//   let nextObject = orbits[currentObject];
+// Object.keys(orbits).forEach(currentOrbit => {
+//   let nextObject = orbits[currentOrbit];
 
 //   while (nextObject) {
 //     nextObject = orbits[nextObject];
 //     totalOrbits++;
 //   }
-// }
+// });
 
 // console.log(totalOrbits);
 
